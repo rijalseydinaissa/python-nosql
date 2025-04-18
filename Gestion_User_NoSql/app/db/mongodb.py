@@ -1,8 +1,7 @@
 from pymongo import MongoClient, errors
 
 class MongoDB:
-    MONGO_URI = "mongodb+srv://sidydiopbalde:Toubakhayra@clustergestionuserpytho.qm3bwmd.mongodb.net/etablissement?retryWrites=true&w=majority&appName=ClusterGestionUserPython"
-
+    MONGO_URI = "mongodb+srv://walonaynekh:walonaynekh@walonaynekh.zjohx.mongodb.net/?retryWrites=true&w=majority&appName=walonaynekh"
     def __init__(self):
         try:
             self.client = MongoClient(self.MONGO_URI)
